@@ -1,0 +1,173 @@
+export const projects = [
+  {
+    id: 1,
+    name: "News Classification with BiLSTM",
+    description:
+      "Implemented text classification using Bidirectional LSTM with pre-trained GloVe embeddings, achieving 91% accuracy on AG News dataset and 57% on the more complex 20 Newsgroups dataset with 20 categories.",
+    tags: ["Python", "Deep Learning", "NLP", "BiLSTM", "GloVe", "Text Classification"],
+    image: "/News-Classification-using-NLP.webp",
+    github: "https://github.com/SaatvikP/News_Classification",
+    demo: "https://github.com/SaatvikP/News_Classification",
+    slug: "news-classification",
+    period: "Jan 2024 - Mar 2024",
+  },
+  {
+    id: 2,
+    name: "AdSculptAI",
+    description:
+      "Developed an AI-powered ad generation platform that creates personalized video ads in real-time based on user preferences, integrating OpenAI for scripts, ElevenLabs for voiceovers, and D-ID for lip-synced videos.",
+    tags: ["Python", "React", "TypeScript", "OpenAI API", "ElevenLabs API", "D-ID API", "Cloudflare"],
+    image: "/NRP-Privacy_Matters_Personalized_Advertising_and_Privacy_Arent_at_Odds_banner_FINAL.jpg.webp",
+    github: "https://github.com/SaatvikP/AdSculptAI",
+    demo: "https://github.com/SaatvikP/AdSculptAI",
+    slug: "adsculpt-ai",
+    period: "Nov 2023 - Feb 2024",
+  },
+  {
+    id: 3,
+    name: "POS Tagging with Word Embeddings",
+    description:
+      "Built Part-of-Speech tagging models using both traditional ML (Logistic Regression, SVM) and deep learning (BiLSTM) approaches. The BiLSTM model with GloVe embeddings achieved 94.78% accuracy, significantly outperforming traditional methods.",
+    tags: ["Python", "NLP", "BiLSTM", "GloVe", "Machine Learning", "SVM", "TF-IDF"],
+    image: "/POS-Tagging-800x400.jpg",
+    github: "https://github.com/SaatvikP/POS_Tagging_using_Word_Embedding",
+    demo: "https://github.com/SaatvikP/POS_Tagging_using_Word_Embedding",
+    slug: "pos-tagging",
+    period: "Oct 2023 - Dec 2023",
+  },
+  {
+    id: 4,
+    name: "Course PAiLOT",
+    description:
+      "Created a personalized academic planning platform that analyzes 10,000+ courses across 200+ majors to deliver tailored recommendations based on student preferences, improving course selection accuracy by 40%.",
+    tags: ["Next.js", "TypeScript", "Firebase", "Python", "Web Scraping", "BeautifulSoup", "OpenAI API"],
+    image: "/gallery.jpg",
+    github: "https://github.com/SaatvikP/COURSE-PAILOT",
+    demo: "https://devpost.com/software/course-pailot",
+    slug: "course-pailot",
+    period: "Oct 2023 - Oct 2023",
+  },
+  {
+    id: 5,
+    name: "Pet Store Web Application",
+    description:
+      "Built a full-stack e-commerce app with secure authentication, cart management, and responsive design. Improved page load times by 20% through efficient content rendering using Thymeleaf templates.",
+    tags: ["Spring Boot", "Java", "Thymeleaf", "HTML/CSS", "Spring Security"],
+    image: "/Pet_Store_Web_App.png",
+    github: "https://github.com/SaatvikP/Pet-Store-Web-Application",
+    demo: "https://github.com/SaatvikP/Pet-Store-Web-Application",
+    slug: "pet-store",
+    period: "Aug 2023 - Dec 2023",
+  },
+  {
+    id: 6,
+    name: "Cross Impact OFI Analysis",
+    description:
+      "Analyzed cross-impact dynamics of Order Flow Imbalance (OFI) in equity markets, integrating multi-level OFI metrics and applying dimensionality reduction to evaluate their predictive power for price changes across various stocks.",
+    tags: ["Python", "Data Analysis", "Financial Markets", "PCA", "Regression Analysis", "Visualization"],
+    image: "/cross_impact.webp",
+    github: "https://github.com/SaatvikP/Cross_Impact_OFI",
+    demo: "https://github.com/SaatvikP/Cross_Impact_OFI",
+    slug: "cross-impact-ofi",
+    period: "Jun 2023 - Aug 2023",
+  },
+  {
+    id: 7,
+    name: "Parkinson's Disease Detection from MRI",
+    description:
+      "Compared 3D CNNs, SVMs, and Random Forests for classifying MRI scans into PD, Control, SWEDD, and Prodromal groups. Random Forest achieved the highest accuracy (65.9%) for multiclass classification, while SVM performed best (76.4%) for binary classification.",
+    tags: ["Python", "Machine Learning", "Medical Imaging", "CNN", "SVM", "Random Forest", "MRI Analysis"],
+    image: "/Parkinson's_Poster.jpg",
+    github:
+      "https://sites.psu.edu/mcreu/2024/07/23/comparative-analysis-of-machine-learning-algorithms-for-parkinsons-disease-detection-from-mri-scans/",
+    demo: "https://sites.psu.edu/mcreu/2024/07/23/comparative-analysis-of-machine-learning-algorithms-for-parkinsons-disease-detection-from-mri-scans/",
+    slug: "parkinsons-detection",
+    period: "May 2023 - Jul 2023",
+  },
+  {
+    id: 8,
+    name: "Trustworthy Neural Networks",
+    description:
+      "Developed an adaptive learning algorithm to adjust rates based on rejects, improving neural network reliability by 90% for safety-critical applications. Tested on breast cancer datasets, synthetic data, and MNIST, achieving a 10% accuracy improvement.",
+    tags: ["Python", "Deep Learning", "Neural Networks", "Adaptive Learning", "TensorFlow", "Keras"],
+    image: "/Neural_Network_Poster.png",
+    github:
+      "https://sites.psu.edu/mcreu/2023/07/26/improvement-and-development-of-trustworthy-neural-networks-to-improve-confidence-in-the-prediction-results/",
+    demo: "https://sites.psu.edu/mcreu/2023/07/26/improvement-and-development-of-trustworthy-neural-networks-to-improve-confidence-in-the-prediction-results/",
+    slug: "trustworthy-neural-networks",
+    period: "May 2023 - Jul 2023",
+  },
+  {
+    id: 9,
+    name: "In-Pipe Inspection Robot",
+    description:
+      "Designed and developed a robotic system for inspecting pipelines, capable of navigating through various pipe diameters and detecting structural issues. Awarded Indian Design Patent: 360985-001.",
+    tags: ["Robotics", "Computer Vision", "Embedded Systems", "IoT", "Patent"],
+    image: "/In-Pipe.png",
+    github: "#",
+    demo: "#",
+    slug: "pipe-inspection-robot",
+    period: "2020 - 2021",
+  },
+  {
+    id: 10,
+    name: "Senior e-Bike",
+    description:
+      "Designed an electric bike specifically for senior citizens with enhanced safety features and ergonomic design. Awarded Indian Design Patent (Number: 344685-001).",
+    tags: ["Product Design", "Electrical Engineering", "Patent", "Ergonomics"],
+    image: "/images.jpeg",
+    github: "#",
+    demo: "#",
+    slug: "senior-ebike",
+    period: "2019 - 2020",
+  },
+  {
+    id: 11,
+    name: "Automatic Public Ration Dispensing System",
+    description:
+      "Developed an automated system for public ration distribution to improve efficiency and reduce fraud. Received Indian Copyright Patent (Number: SW - 14713/2021).",
+    tags: ["Automation", "IoT", "Software Development", "Patent"],
+    image: "/Ration.jpg",
+    github: "#",
+    demo: "#",
+    slug: "ration-system",
+    period: "2020 - 2021",
+  },
+  {
+    id: 12,
+    name: "Cats vs. Dogs Classifier",
+    description:
+      "Applied CNNs and deep learning models for accurate classification of Cats vs. Dogs, achieving 92% accuracy. Implemented using TensorFlow and Keras with data augmentation techniques.",
+    tags: ["Deep Learning", "CNNs", "TensorFlow", "Image Classification"],
+    image: "/images.png",
+    github: "#",
+    demo: "#",
+    slug: "cats-dogs-classifier",
+    period: "Oct 2020",
+  },
+  {
+    id: 13,
+    name: "Voice-Activated Android App",
+    description:
+      "Built a voice-activated Android application for display panel printing, integrating Bluetooth communication and Arduino-based hardware controls. Improved operational efficiency by automating manual processes and reducing errors.",
+    tags: ["Android", "Kotlin", "Bluetooth", "Voice Recognition", "Arduino"],
+    image: "/HeroHomepage_2880x1200.width-1200.format-webp.webp",
+    github: "#",
+    demo: "#",
+    slug: "voice-android-app",
+    period: "Apr 2021 - Jun 2021",
+  },
+  {
+    id: 14,
+    name: "AI-Powered Fire and Smoke Detection",
+    description:
+      "Developed an AI-powered image processing system using YOLOv5 to detect fire, smoke, and face masks in real-time. Integrated OpenCV for preprocessing and optimized the model for low-latency deployment in safety-critical applications.",
+    tags: ["Computer Vision", "YOLOv5", "OpenCV", "Safety Systems", "Real-Time Detection"],
+    image: "/10694_2022_1260_Fig12_HTML.jpg",
+    github: "#",
+    demo: "#",
+    slug: "fire-smoke-detection",
+    period: "Jun 2022 - Aug 2022",
+  },
+]
+
