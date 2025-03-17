@@ -29,7 +29,7 @@ export default function AboutPage() {
               <div className="absolute inset-0 rounded-lg bg-gradient-to-br from-primary/20 via-secondary/20 to-primary/10 blur-2xl" />
               <div className="relative h-full w-full rounded-lg overflow-hidden border-2 border-primary/20">
                 <Image
-                  src="portfoliopic.jpg"
+                  src="portfolio_pic.jpg"
                   alt="Saatvik Pradhan"
                   fill
                   className="object-cover"
@@ -78,7 +78,7 @@ export default function AboutPage() {
             </ul>
               <div className="mt-8">
                 <Button size="lg" className="flex items-center gap-2" asChild>
-                  <a href="/resume.pdf" download>
+                  <a href="/Pradhan_PSU_FA_24.pdf" download>
                     <Download className="h-5 w-5 mr-2" />
                     Download Resume
                   </a>

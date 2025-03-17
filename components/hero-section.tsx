@@ -225,7 +225,7 @@ export default function Hero() {
                 }}
               >
                 <Image
-                  src="/portfoliopic.jpg"
+                  src="/portfolio_pic.jpg"
                   alt="Saatvik Pradhan"
                   width={500}
                   height={500}
